@@ -3,11 +3,7 @@ footer {
     color: white;
     padding: 40px 0;
     margin-top: 80px;
-}
-
-footer h5 {
-    color: #ffffff;
-    margin-bottom: 20px;
+    width: 100%;
 }
 
 footer a {
@@ -26,4 +22,18 @@ footer a:hover {
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+header {
+   height: 80px;
+   background-color: #ffffff;
+}
+
+.blok {
+    background: linear-gradient(45deg, #c2dbe9, #128acf);
+    height: 350px;
+    width: 100%;
+    display: flex;          
+    align-items: center;    
+    justify-content: center; 
+    
 }
