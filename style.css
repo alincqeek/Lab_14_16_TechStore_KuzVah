@@ -15,6 +15,7 @@ footer a {
 footer a:hover {
     color: #ffc107;
 }
+
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -23,17 +24,100 @@ footer a:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
 }
+
 header {
-   height: 80px;
-   background-color: #ffffff;
+    height: 80px;
+    background-color: #ffffff;
 }
 
 .blok {
+
     background: linear-gradient(45deg, #c2dbe9, #128acf);
     height: 350px;
     width: 100%;
-    display: flex;          
-    align-items: center;    
-    justify-content: center; 
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
 }
+
+.blok-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.blok p {
+    color: white;
+    text-decoration: none;
+    font-size: 42px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo h3 {
+    font-size: 24px;
+    color: #128acf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-menu {
+  display: flex;              
+  list-style: none;           
+  margin: 0;
+  padding: 0;
+  gap: 20px;                 
+  justify-content: first baseline;  
+}
+.active {
+    background-color: #128acf;  
+    color: white;
+    height: 50px;               
+    width: 100px;                
+    display: flex;              
+    align-items: center;      
+    justify-content: center;  
+    list-style: none;        
+    margin: 0;                
+    padding: 0 20px;       
+    border-radius: 15px;        
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-menu li a {
+    color: black;          
+    text-decoration: none;     
+    padding: 10px 15px;      
+    display: block;             
+    font-weight: 500;
+}
+
+
+
+@media (max-width: 768px) {
+    footer {
+        text-align: center;
+    }
+
+    footer .d-flex {
+        justify-content: center;
+    }
+
+    footer .btn {
+        margin-bottom: 10px;
+    }
+      .icon { 
+    display: none;
+  }
+
+}
+
+
+

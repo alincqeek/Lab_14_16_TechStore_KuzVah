@@ -9,133 +9,180 @@
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css" />
 
+<header>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-6 col-md-4">
+        <div class="logo" style="margin-top: 19px;">
+          <h3>🛒<strong>KuzVahStore</strong></h3>
+        </div>
+      </div>
+      
+      <div class="col-md-5 d-none d-md-block">
+        <nav>
+          <ul class="nav-menu" style="margin-top: 18px;">
+            <li><a href="#" style="color: white;" class="active">
+                <h5>Главная</h5>
+              </a></li>
+            <li><a href="catalog.html">
+                <h5>Каталог</h5>
+              </a></li>
+            <li><a href="about.html">
+                <h5>О нас</h5>
+              </a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="col-6 col-md-3 text-end">
+        <div class="icon" style="margin-top: 19px;">
+          <h3>🔍🛒</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
 
+  
 </head>
 
 <body>
 
-  <header>
-    <a>tr</a>
-  </header>
 
 
+
+
+  <div class="blok">
+    <div class="blok-content">
+      <p>Добро пожаловать в KuzVahtore</p>
+      <h4 style="font-family: Arial, Helvetica, sans-serif; color: white;">Лучшая Электроник по доступным ценам</h4>
+      <button type="button" class="btn btn-primary btn-lg">Посмотреть каталог</button>
+    </div>
+  </div>
+
+
+  <div class="container my-4">
+    <div class="text-center mt-5 mb-5">
+      <h2 style="font-family: Arial, Helvetica, sans-serif;"><strong>Популярные товары</strong></h2>
+    </div>
+    <div class="row justify-content-center">
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-lg h-100" style="width: 100%; position: relative;">
+          <button type="button" class="btn btn-danger"
+            style="position: absolute; top: 10px; left: 10px; z-index: 10; background-color: #ff0000; border-color: #ff0000; opacity: 1; pointer-events: none;"
+            disabled>
+            -20%
+          </button>
+          <div
+            style="height: 200px; width:100%; background: linear-gradient(45deg, #515dce, #7f4ecd); display: flex; justify-content: center; align-items: center; ">
+            <span style="font-size: 70px;">🎧</span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mt-2">Наушники Sony WH-1000XM5</h5>
+            <p class="card-text">Премиальные наушники с активным шумоподавлением и временем работы до
+              30 часов</p>
+            <a>★★★★★ (125)</a>
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <p class="mb-2"><s>29 990₽</s></p>
+              <h3 class="mb-2">24 990 ₽</h3>
+            </div>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button">В корзину</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-lg h-100" style="width: 100%; position: relative;">
+          <button type="button" class="btn btn-danger"
+            style="position: absolute; top: 10px; left: 10px; z-index: 10; background-color: #73eede; border-color: #ff0000; opacity: 1; pointer-events: none;"
+            disabled>
+            новинка
+          </button>
+          <div
+            style="height: 200px; width:100%; background: linear-gradient(45deg, #515dce, #7f4ecd); display: flex; justify-content: center; align-items: center; ">
+            <span style="font-size: 70px;">📱</span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mt-2">iphone 17 Pro Max 512GB</h5>
+            <p class="card-text">Флагманский смартфон с титановым корпусом чипом AL9 Pro</p>
+            <a>★★★★★ (342)</a>
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <p class="mb-2"><s>129 990₽</s></p>
+              <h3 class="mb-2">109 990 ₽</h3>
+            </div>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button">В корзину</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card shadow-lg h-100" style="width: 100%; position: relative;">
+
+          <div
+            style="height: 200px; width:100%; background: linear-gradient(45deg, #515dce, #7f4ecd); display: flex; justify-content: center; align-items: center; ">
+            <span style="font-size: 70px;">💻</span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title mt-2">MacBook Pro 14 "M5 Pro"</h5>
+            <p class="card-text">Профиссиональный ноутбук для работы и творчества с процессором M5 Pro</p>
+            <a>★★★★★ (342)</a>
+            <h3 class="mb-2">189 990 ₽</h3>
+
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button">В корзину</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="catalog.html" target="_blank">
+          <button type="button" class="btn btn-outline-primary btn-lg">Смотреть все товары</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <h5>О компании</h5>
+          <p>
+            KuzVahStore-ваш надежный партнер в мире технологий с 2020 года.
+          </p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5>Быстрые ссылки</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">📧 info@techstore.ru</a></li>
+            <li><a href="#">📞 tel:88005553535</a></li>
+            <li><a href="#">🔗 г. Волжский, ул. Пушкина, д. 4</a></li>
+
+          </ul>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5>О нас</h5>
+          <button type="button" class="btn btn-secondary">VK</button>
+          <button type="button" class="btn btn-secondary">Telegram</button>
+          <button type="button" class="btn btn-secondary">Instagram</button>
+
+        </div>
+      </div>
+      <hr style="border-color: rgba(255, 255, 255, 0.1)" />
+      <div class="text-center mt-3">
+        <p class="mb-0">&copy; 2026 KuzVahStore. Все права защищены.</p>
+        <p class="mb-0 text-muted">Создано с помощью Bootstrap 5</p>
+      </div>
+    </div>
+  </footer>
 </body>
-
-<div class="blok"><a>tr</a></div>
-<div class="container my-4">
-  <h2 style="text-align: center; gap: 10px;">Популярные товары</h2>
-  <div class="row justify-content-center">
-
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="card shadow-lg h-100" style="width: 100%; position: relative;">
-        <button type="button" class="btn btn-danger"
-          style="position: absolute; top: 10px; left: 10px; z-index: 10; background-color: #ff0000; border-color: #ff0000; opacity: 1; pointer-events: none;"
-          disabled>
-          -20%
-        </button>
-        <div
-          style="height: 200px; width:100%; background: linear-gradient(45deg, #515dce, #7f4ecd); display: flex; justify-content: center; align-items: center; ">
-          <span style="font-size: 70px;">🎧</span>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title mt-2">Наушники Sony WH-1000XM5</h5>
-          <p class="card-text">Премиальные наушники с активным шумоподавлением и временем работы до
-            30 часов</p>
-          <a>★★★★★ (125)</a>
-          <div style="display: flex; align-items: center; gap: 10px;">
-            <p class="mb-2"><s>29 990₽</s></p>
-            <h3 class="mb-2">24 990 ₽</h3>
-          </div>
-          <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button">В корзину</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="card shadow-lg h-100" style="width: 100%; position: relative;">
-        <button type="button" class="btn btn-danger"
-          style="position: absolute; top: 10px; left: 10px; z-index: 10; background-color: #73eede; border-color: #ff0000; opacity: 1; pointer-events: none;"
-          disabled>
-          новинка
-        </button>
-        <div
-          style="height: 200px; width:100%; background: linear-gradient(45deg, #515dce, #7f4ecd); display: flex; justify-content: center; align-items: center; ">
-          <span style="font-size: 70px;">📱</span>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title mt-2">iphone 17 Pro Max 512GB</h5>
-          <p class="card-text">Флагманский смартфон с титановым корпусом чипом AL9 Pro</p>
-          <a>★★★★★ (342)</a>
-          <div style="display: flex; align-items: center; gap: 10px;">
-            <p class="mb-2"><s>129 990₽</s></p>
-            <h3 class="mb-2">109 990 ₽</h3>
-          </div>
-          <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button">В корзину</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="card shadow-lg h-100" style="width: 100%; position: relative;">
-
-        <div
-          style="height: 200px; width:100%; background: linear-gradient(45deg, #515dce, #7f4ecd); display: flex; justify-content: center; align-items: center; ">
-          <span style="font-size: 70px;">💻</span>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title mt-2">MacBook Pro 14 "M5 Pro"</h5>
-          <p class="card-text">Профиссиональный ноутбук для работы и творчества с процессором M5 Pro</p>
-          <a>★★★★★ (342)</a>
-          <h3 class="mb-2">189 990 ₽</h3>
-
-          <div class="d-grid gap-2">
-            <button class="btn btn-primary" type="button">В корзину</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-    <footer>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4 mb-4">
-            <h5>О компании</h5>
-            <p>
-              Мы создаем современные веб-решения для вашего бизнеса с
-              использованием передовых технологий.
-            </p>
-          </div>
-          <div class="col-md-4 mb-4">
-            <h5>Быстрые ссылки</h5>
-            <ul class="list-unstyled">
-              <li><a href="#home">Главная</a></li>
-              <li><a href="#services">Услуги</a></li>
-              <li><a href="#about">О нас</a></li>
-              <li><a href="#contact">Контакты</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4 mb-4">
-            <h5>О нас</h5>
-            <button type="button" class="btn btn-secondary">VK</button>
-            <button type="button" class="btn btn-secondary">Telegram</button>
-            <button type="button" class="btn btn-secondary">Instagram</button>
-            
-          </div>
-        </div>
-        <hr style="border-color: rgba(255, 255, 255, 0.1)" />
-        <div class="text-center mt-3">
-          <p class="mb-0">&copy; 2026 KuzVahPortfolio. Все права защищены.</p>
-          <p class="mb-0 text-muted">Создано с помощью Bootstrap 5</p>
-        </div>
-      </div>
-    </footer>
-    </body>
 
 </html>
