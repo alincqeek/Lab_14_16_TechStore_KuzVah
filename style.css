@@ -211,23 +211,6 @@ header {
     .icon {
         display: none;
     }
-
-}
-
-
-@media screen and (max-width: 992px) {
-    .parent {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
-    }
-
-
-    .box {
-        grid-column-start: auto !important;
-    }
-}
-
-@media screen and (max-width: 768px) {
     .parent {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
@@ -250,10 +233,64 @@ header {
     h6 {
         font-size: 14px;
     }
-}
 
-@media (max-width: 700px) {
-    .team-card {
+     .team-card {
         max-width: 400px;
     }
+}
+
+@media screen and (max-width: 1199px) {
+    .parent {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+
+    .box {
+        grid-column-start: auto !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .parent,
+    .vibor {
+        grid-template-columns: 1fr !important;
+        gap: 15px;
+        padding: 0 15px;
+    }
+
+   
+    .box1,
+    .vi,
+    .team-card {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        min-height: 160px;
+        padding: 20px;
+    }
+    .box1 div[style*="font-size: 50px"],
+    .vi div[style*="font-size: 60px"] {
+        font-size: 40px !important;
+    }
+
+    .team-card div[style*="font-size: 90px"] {
+        font-size: 70px !important;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+ 
+    [style*="margin-top: 100px"],
+    [style*="margin-top: 90px"] {
+        margin-top: 40px !important;
+    }
+
+    
 }
