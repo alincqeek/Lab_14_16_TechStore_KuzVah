@@ -259,9 +259,43 @@ header {
         padding: 0 15px;
     }
 
+        .vibor {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 15px;
+        max-width: 100%;
+        
+    }
+    
+   
+    .nadpis{
+        text-decoration: underline;
+        text-decoration-thickness: 4px;
+        text-decoration-color: #128acf;
+        
+    }
+    
+    .vi div[style*="font-size: 60px"] {
+        font-size: 45px !important;
+        margin-bottom: 0;
+        min-width: 60px;
+        text-align: center;
+    }
+    
+    .vi-content {
+        flex: 1;
+    }
+    
+    .vi h3 {
+        margin: 0 0 5px 0;
+    }
+    
+    .vi f6 {
+        font-size: 13px;
+        color: #555;
+    }
    
     .box1,
-    .vi,
     .team-card {
         width: 100%;
         max-width: 100%;
